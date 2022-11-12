@@ -45,7 +45,7 @@ extern uint32_t _sbss;
 extern uint32_t _ebss;
 
 // global stack pointer defined here
-extern uint32_t stack_pointer = MAIN_STACK_POINTER;
+uint32_t stack_pointer = MAIN_STACK_POINTER;
 
 
 // prototype void
