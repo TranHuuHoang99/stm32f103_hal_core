@@ -112,6 +112,10 @@ enum INTERRUPT_ORDER{
 	EXTII15_10_interrupt,
 	RTCAlarm_interrupt,
 	OTP_FS_WKUP_interrupt,
+    // reserved to be zero
+    reserved1,
+    reserved2,
+    //end reserved
 	TIM5_interrupt,
 	SPI3_interrupt,
 	UART4_interrupt,
