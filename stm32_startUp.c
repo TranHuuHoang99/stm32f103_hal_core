@@ -149,7 +149,8 @@ void OTG_FS_interrupt					(void) 	__WEAK_DEFAULT_HANLDER__;
 
 uint32_t vectors[] __VRB__ = {
     MAIN_STACK_POINTER,
-    //exceptions
+
+    /*Exceptions Function */
     (uint32_t)Reset_handler,
     (uint32_t)NMI_hanlder,
     (uint32_t)Hardfault_handler,
@@ -165,7 +166,8 @@ uint32_t vectors[] __VRB__ = {
     (uint32_t)0,
     (uint32_t)PendSV_handler,
     (uint32_t)Systick_handler,
-    // interrupt 
+
+    /* Interrupt Function */ 
 	(uint32_t)WWDG_interrupt,
 	(uint32_t)PVD_interrupt,
 	(uint32_t)TAMPER_interrupt,
